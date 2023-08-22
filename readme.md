@@ -18,6 +18,10 @@ To run the application use the following script:
 streamlit run "/path/front_end.py"
 ```
 
+## Data
+
+For users that do not have access to their own binary classification data, a set is provided in the folder 'data'. This set is sourced from the IBM Telco Churn data set found here: https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113
+
 ## Authorship
 
 Created by Tom Murarik, for an MSc Operations Research with Data Science Dissertation at the University of Edinburgh. In collaboration with Vodafone Data Analytics UK. 
