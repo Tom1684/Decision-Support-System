@@ -76,7 +76,7 @@ st.title("Decision Support System")
 st.write("---")
 
 st.subheader("Description")
-st.markdown("This application performs feature selection using two Multi-Objective Optimization Metaheuristic Algorithms on a user-provided Machine Learning data-set. If you don't have your own data-set, you can use the ones provided in the 'data' folder.")
+st.markdown("This application performs feature selection using two Multi-Objective Optimization Metaheuristic Algorithms on a user-provided Machine Learning data-set. If you don't have your own data-set, you can use the IBM churn data provided in the 'data' folder.")
 st.markdown("The algorithms are designed specifically for customer churn prediction models but any binary classification data-set is accepted - multi-class classification sets will not work. The minimum number of features supported is nine.")
 st.markdown("Note that all features should be non-negative, otherwise some feature selection methods used in the algorithm will be unavailable. If your data has negative values, the algorithms will still run but use nine feature selection methods instead of ten.")
 
