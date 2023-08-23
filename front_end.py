@@ -57,6 +57,7 @@ import json
 import plotly.express as px
 import plotly.graph_objects as go
 from collections import Counter
+import subprocess
 
 # Matplotlib configuration
 plt.rcParams['figure.figsize'] = (8,6)
@@ -157,9 +158,13 @@ if button_clicked:
     import feature_slxn
     feature_slxn.main()
     st.write('Running SPEA-II.')
-    import SPEA2
+    # import SPEA2
+    subprocess.run(["python", "SPEA2.py"])
+
     st.write('Running FNSGA-II.')
-    import FNSGA2
+    # import FNSGA2
+    subprocess.run(["python", "FNSGA2.py"])
+
     st.write('Completed.')
 
     # Import the combined non-dominated solutions from both algorithms - they are combined in the FNSGA2 workbook
