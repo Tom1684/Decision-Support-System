@@ -1,6 +1,6 @@
 # Decision Support System - Feature Selection for Customer Churn
 
-An ensemble of two Multi-Objecive Optimisation Algorithms for Machine Learning feature selection. Only for binary classification data-sets. Instructions for use are given in the application itself. Instructions for running the application are given below.
+An ensemble of two Multi-Objecive Optimisation Algorithms for Machine Learning feature selection. Only for binary classification data-sets. Instructions for running the algorithm are given below.
 
 ## Dependencies
 
